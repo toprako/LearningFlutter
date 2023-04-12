@@ -18,6 +18,7 @@ import 'package:learning/101/StatefullLearning.dart';
 import 'package:learning/101/StatefullLifeCycleLearning.dart';
 import 'package:learning/101/StatelessLearning.dart';
 import 'package:learning/101/TextFieldLearning.dart';
+import 'package:learning/202/TabLearningWidget.dart';
 import 'package:learning/demos/ColorDemosViewLearning.dart';
 import 'package:learning/demos/ColorLifeCycleViewLearning.dart';
 import 'package:learning/demos/MyCollectionDemos.dart';
@@ -51,7 +52,7 @@ class MyApp extends StatelessWidget {
           elevation: 0,
         ),
       ),
-      home: NavihationLearningWidget(),
+      home: TabLearningWidget(),
       debugShowCheckedModeBanner: false,
     );
   }
