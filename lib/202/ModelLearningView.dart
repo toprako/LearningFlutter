@@ -19,7 +19,7 @@ class _ModelLearningViewState extends State<ModelLearningView> with SingleTicker
     final user1 = PostModel2();
     user1.body = "Hello";
 
-    final user2 = PostModel(1, 2, "Title", "Body");
+    final user2 = PostModel1(1, 2, "Title", "Body");
 
     final user3 = PostModel3(1, 2, "Title2", "Body2");
     user3.body = "Merhaba";

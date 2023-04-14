@@ -23,6 +23,8 @@ import 'package:learning/demos/ColorDemosViewLearning.dart';
 import 'package:learning/demos/ColorLifeCycleViewLearning.dart';
 import 'package:learning/demos/MyCollectionDemos.dart';
 import 'package:learning/demos/StackDemoViewLearning.dart';
+import 'package:learning/service/ServiceLearningView.dart';
+import 'package:learning/service/ServicePostLearningView.dart';
 
 import '101/ContainerSizedBoxLearning.dart';
 import '101/PaddingLearning.dart';
@@ -52,7 +54,7 @@ class MyApp extends StatelessWidget {
           elevation: 0,
         ),
       ),
-      home: TabLearningWidget(),
+      home: ServicePostLearning(),
       debugShowCheckedModeBanner: false,
     );
   }
